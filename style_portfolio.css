@@ -121,10 +121,8 @@ transition: 0.3s;
   border: 2px solid #4bcaff;
 }
 .About{
-  max-width: 1170px;
-  height: 300px;
-
-  background-image: url(images/bg.png);
+    height: 300px;
+    background-image: url(images/bg.png);
 }
 .about_forMe{
   height: 300px;
@@ -435,7 +433,7 @@ font-weight: 400;
   max-width: 1170px;
 }
 .right_text{
-  margin-left: 20px;
+  margin: 0px 10px;
 }
 .left_element{
   margin-right: 20px;
@@ -785,6 +783,9 @@ height: 140px;
 .bottom_left{
   height: 380px;
 }
+.about_forMe{
+  height: 340px;
+}
 .bottomInfo{
   height: 600px;
 }
@@ -797,6 +798,9 @@ height: 140px;
 .bigtext{
     width: 260px;
 }
+.about_forMe{
+  height: 340px;
+}
 .about_forMe h2{
 height: -webkit-fill-available;
     font-size: 16px;
@@ -807,6 +811,7 @@ height: -webkit-fill-available;
 .inputStyle{
   width: 260px;
 }
+
 .bottom_right p{
   height: 150px;
 }
