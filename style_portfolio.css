@@ -98,11 +98,24 @@ text-decoration: none;
 font-family: "Segoe UI";
 font-weight: bold;
 }
+nav a:hover{
+border: 1px solid #ffe524;
+box-shadow: 0 0 10px #ffe524;
+
+transition: 0.3s;
+}
+#style_search_portfolio a:hover{
+  border: 1px solid #40ff40;
+  box-shadow: 0 0 10px #40ff40;
+
+  transition: 0.3s;
+
+}
 .home{
   z-index: 23;
   width: 80px;
   text-align: center;
-  height: 35px;
+  height: 30px;
   margin-top: 7px;
   background-color: #4bcaff;
   border: 2px solid #4bcaff;
@@ -126,7 +139,8 @@ justify-content: center;
 }
 .about_forMe h1{
 text-align: left;
-margin: 20px ;
+margin:20px;
+  margin-top: 4px;
 line-height: 75px;
 color: #ffffff;
 font-family: "Segoe UI";
@@ -154,6 +168,7 @@ align-items: center;
 }
 .header_portfolio a {
   font-size: 14px;
+  width: 62px;
   line-height: 24px;
   color: #515f67;
   font-family: "Segoe UI";
